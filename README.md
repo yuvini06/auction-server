@@ -18,7 +18,7 @@ The server can locate a given stock item, update its price. Furthermore the serv
 ## Steps:
 1. Run Main.java to launch the Auction Server.
 2. Connect to the server using nc by specifying the port number as 2000.
-> nc localhost 2000
+  > nc localhost 2000
 3. Once connected provide a suitable user-name to identify yourself as a client.
 4. Provide the Symbol of the security you are willing to bid on. If the provided Symbol is found, the current cost of the security will be displyed. "-1" is displayed to indicate that the Symbol is invalid (i.e. the provided secuirty is not available in the stock list).
 5. If the symbol of the security is found within the list, place a bid for the specific security (the offered bidding price must be of a suitable numerical format and value). Once a bid has been placed successfully, the updated price along with the symbol of the security will be displayed. For a given session you are allowed to bid for only one security.
